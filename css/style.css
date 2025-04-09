@@ -30,26 +30,20 @@
 
 /* Cambia el fondo del Navbar */
 .navbar {
-    background-color: #4CAF50; /* Verde */
-  }
+  background-color: #4CAF50; /* Verde */
+}
   
   /* Cambia el color del texto de los enlaces */
-  .navbar .nav-link {
-    color: rgb(0, 0, 0);
-  }
+.navbar .nav-link {
+  color: rgb(0, 0, 0);
+}
   
   /* Cambia el color del texto al pasar el mouse por encima */
-  .navbar .nav-link:hover {
-    color: #ff0022; /* Dorado */
-  }
+.navbar .nav-link:hover {
+  color: #ff0022; /* Dorado */
+}
   
   /* Cambia el color del enlace activo */
-  .navbar .nav-link.active {
-    color: #FF4500; /* Naranja */
+.navbar .nav-link.active {
+ color: #FF4500; /* Naranja */
 }
-
-/*
-.img-header{
-  width: 50%;
-}
-  */
