@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal; 
+}
+
+/* VARIABLES GLOBALES */
+:root {
+    /* BACKGROUND COLORS */
+    --main-bg-color: #523523;
+    --secondary-bg-color: rgb(20, 20, 20);
+    /* NAVBAR COLORS*/
+    --navbar-color: #24170f;
+    --navbar-toggler: #523523;
+    --navbar-toggler-border: #ffffff;
+    --navbar-toggler-border-active: #925f3f;
+    --navbar-link: #858282;
+    /* FOOTER BACKGROUND COLOR*/
+    --footer-bg-color: #24170f;
+    /* BORDER COLORS*/
+    --border-color: rgb(63, 47, 47);
+    /* FONT */
+    --font-color: white;
+}
+
+/* Cambia el fondo del Navbar */
+.navbar {
+    background-color: #4CAF50; /* Verde */
+  }
+  
+  /* Cambia el color del texto de los enlaces */
+  .navbar .nav-link {
+    color: rgb(0, 0, 0);
+  }
+  
+  /* Cambia el color del texto al pasar el mouse por encima */
+  .navbar .nav-link:hover {
+    color: #ff0022; /* Dorado */
+  }
+  
+  /* Cambia el color del enlace activo */
+  .navbar .nav-link.active {
+    color: #FF4500; /* Naranja */
+}
